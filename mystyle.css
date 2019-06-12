@@ -1,0 +1,35 @@
+
+
+/* Grid Styling */
+.container {
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-rows: 50px 250px 250px;
+  grid-template-areas:
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+.body {
+  grid-area: main;
+}
+.footer {
+  grid-area: footer;
+}
+
+/* END GRID STYLING */
+
+/* Header Styling */
+.header {
+  background: black;
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* END HEADER STYLING */
